@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<data>
+    <curso clave="py101" nombre="Introducción a la Programación con Python 3">
+        <requiere />
+        <categoria>Introductorio</categoria>
+        <version>2018</version>
+        <url>https://pythonista.mx/cursos/py101</url>
+        <tema orden="1" nombre="Introducción al lenguaje Python" />
+        <tema orden="2" nombre="Palabras reservadas y espacio de nombres" />
+        <tema orden="3" nombre="Expresiones y declaraciones" />
+        <tema orden="4" nombre="Números, cadenas de caracteres, tipos y operadores" />
+        <tema orden="5"  nombre="Orientación a objetos e introspección" />
+        <tema orden="6" nombre="Entrada y salida estándar" />
+        <tema orden="7" nombre="Bloques, comentarios y condicionales" />
+        <tema orden="8" nombre="Ciclos, iteraciones e interrupciones de ejecución" />
+        <tema orden="9" nombre="Objetos tipo list y tipo tuple" />
+        <tema orden="10" nombre="Objetos tipo dict" />
+        <tema orden="11" nombre="Objetos tipo str" />
+        <tema orden="12" nombre="Objetos tipo set y frozenset" />
+        <tema orden="13" nombre="Funciones" />
+        <tema orden="14" nombre="Gestión de excepiones" />
+        <tema orden="15" nombre="Iteradores y generadores" />
+        <tema orden="16" nombre="Completado de elementos" />
+        <tema orden="17" nombre="Entrada y salida de archivos" />
+        <tema orden="18" nombre="Módulos y paquetes" />
+        <tema orden="19" nombre="Gestión de módulos y paquetes con pip" />
+        <tema orden="20" nombre="Creación de paquetes con setuptools" />
+        <tema orden="21" nombre="Entornos virtuales" />
+    </curso>
+    <curso clave="py111" nombre="Introducción a la programación orientada a objetos con Python 3">
+        <requiere clave="py101"/>
+        <categoria>Introductorio</categoria>
+        <version>2018</version>
+        <url>"https://pythonista.mx/cursos/py111"</url>
+        <tema orden="1" nombre="Clases e instancias" />
+        <tema orden="2" nombre="Atributos y métodos" />
+        <tema orden="3" nombre="Atributos y métodos especiales" />
+        <tema orden="4" nombre="Interfaces, implementaciones y encapsulamientos" />
+        <tema orden="5" nombre="Propiedades" />
+        <tema orden="6" nombre="Métodos estáticos y de clase" />
+        <tema orden="7" nombre="Herencias" />
+        <tema orden="8" nombre="Mixins" />
+        <tema orden="9" nombre="Clases abstractas" />
+        <tema orden="10" nombre="Creación de excepciones personalizadas" />
+        <tema orden="11" nombre="Persistencia de objetos" />      
+    </curso>
+    <curso clave="py121" nombre="Introducción a manejo de datos con Python">
+        <requiere clave="py101"/>
+        <requiere clave="py111"/>
+        <categoria>Introductorio</categoria>
+        <version>2018</version>
+        <url>"https://pythonista.mx/cursos/py121"</url>
+        <tema orden="1" nombre="Documentos separados por comas (CSV)" />
+        <tema orden="2" nombre="Gestión de estructura basadas en JSON" />
+        <tema orden="3" nombre="Análisis de redes sociales con la API de Twitter" />
+        <tema orden="4" nombre="Análisis de transacciones HTTP con Requests"/>
+        <tema orden="5" nombre="Análisis de HTML con Beautifulsoup" />
+        <tema orden="6" nombre="Expresiones regulares" />
+        <tema orden="7" nombre="XML y texto estructurado" />
+        <tema orden="8" nombre="Adquisición de contenido web con Scrapy" />
+        <tema orden="9" nombre="Escritura y lectura de hojas de cáculo en Excel" />
+        <tema orden="10" nombre="Escritura y lectura de documentos PDF" />
+        <tema orden="11" nombre="Introducción a gestión de datos en MongoDB" />
+        <tema orden="12" nombre="Introducción a gestión de bases de datos SQL" />
+        <tema orden="13" nombre="Introducción al ORM SQLAlchemy" />  
+    </curso>
+</data>
