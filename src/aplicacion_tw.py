@@ -53,7 +53,7 @@ def mezcla_tuits(actuales, nuevos):
         
 def main(archivo="tuits.json"):
     termino = input("Término de búsqueda: ")
-    tw = accede_a_tw("credenciales.txt")
+    tw = accede_a_tw("data/credenciales.txt")
     tuits_previos = carga_tuits(archivo)
     tuits_recientes = busqueda_tw(tw, termino)
     tuits = mezcla_tuits(tuits_previos, tuits_recientes)
