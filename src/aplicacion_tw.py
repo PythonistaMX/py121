@@ -5,19 +5,17 @@
 
 import csv, twitter, json
 from functools import reduce
-CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET = "", "", "", ""
-
 
 def accede_a_tw(fuente):
     '''Crea el objeto a partir del cual se consumirá la API de Twitter,
     leyendo las credenciales desde un archivo, definido en fuente.'''
-    (CONSUMER_KEY,
-     CONSUMER_SECRET,
-     OAUTH_TOKEN,
-     OAUTH_TOKEN_SECRET) = open(
-            fuente, 'r').read().splitlines()
-    auth = twitter.oauth.OAuth(OAUTH_TOKEN,
-                           OAUTH_TOKEN_SECRET,
+    with open(fuente, 'r') as archivo:
+        (CONSUMER_KEY,
+        CONSUMER_SECRET,
+        ACCESS_TOKEN,
+        ACCESS_TOKEN_SECRET) = archivo.read().splitlines()
+    auth = twitter.oauth.OAuth(ACCESS_TOKEN,
+                           ACCESS_TOKEN_SECRET,
                            CONSUMER_KEY,
                            CONSUMER_SECRET)
     return twitter.Twitter(auth=auth)
