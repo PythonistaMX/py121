@@ -2,6 +2,9 @@
 
 # py121 Introducción a la gestión de datos con Python.
 
+La lista de reprodducción de este curso está disponible en:
+https://www.youtube.com/playlist?list=PLeKKNy7-Y2sW0wwT_WsaqE0uk1Eg-eJ0w
+
 ## Temario:
 
 * Fecha y hora
