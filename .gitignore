@@ -104,8 +104,9 @@ venv.bak/
 .mypy_cache/
 
 # py121
-.pdf
-.xls
-.xlsx
-prueba/
-data/credenciales.txt
+*.pdf
+*.xls
+*.xlsx
+prueba
+credenciales.txt
+
