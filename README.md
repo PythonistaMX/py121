@@ -3,7 +3,7 @@
 # py121 Gestión de datos y webscraping básicos con Python.
 
 La lista de reproducción de este curso está disponible en:
-https://www.youtube.com/playlist?list=PLeKKNy7-Y2sW0wwT_WsaqE0uk1Eg-eJ0w
+https://www.youtube.com/watch?v=F0IfPmzQkvo&list=PLeKKNy7-Y2sXN6V0fqaZM4aBsGjipLcWu
 
 ## Temario:
 
