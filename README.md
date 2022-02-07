@@ -1,4 +1,4 @@
-[![imagenes](imagenes/pythonista.png)](https://pythonista.mx)
+[![img](img/pythonista.png)](https://www.pythonista.io)
 
 # py121 Gestión de datos y webscraping básicos con Python.
 
