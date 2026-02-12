@@ -1,5 +1,7 @@
 # py121: La Biblioteca Estándar de Python a Fondo
 
+> **⚠️ Nota Importante:** Este repositorio ha sido actualizado en 2026 con contenido moderno (Python 3.12+). Si buscas el material original, puedes encontrarlo en la rama [legacy](../../tree/legacy).
+
 Este curso está diseñado como un puente hacia la ingeniería de datos, CI/CD y desarrollo backend de alto rendimiento, explorando a fondo la biblioteca estándar de Python.
 
 ## Temario
