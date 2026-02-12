@@ -13,9 +13,13 @@ Curso intermedio-avanzado diseñado como puente hacia ingeniería de datos, CI/C
 1. **01_colecciones_avanzadas.ipynb**
    * `collections`: `namedtuple`, `deque` (colas LIFO/FIFO), `Counter`, `defaultdict`.
 2. **02_iteradores_y_generadores.ipynb**
-   * Generadores, `yield`, `yield from` y el protocolo iterador. La base para entender corrutinas.
-3. **03_itertools_y_flujos.ipynb**
-   * Procesamiento de streams: `chain`, `zip_longest`, combinatoria (`product`, `permutations`).
+   * Generadores avanzados y flujos de datos.
+   * `yield` como entrada/salida: `send()`, `throw()`, `close()`.
+   * Delegación con `yield from`. Expresiones generadoras vs Comprensiones.
+3. **03_itertools_y_functools.ipynb**
+   * Programación funcional pragmática.
+   * `itertools`: Procesamiento de streams (`chain`, `zip_longest`) y combinatoria.
+   * `functools`: Aplicación parcial (`partial`), caché (`lru_cache`), reducción (`reduce`) y decoradores (`wraps`).
 4. **04_bytes_y_struct.ipynb**
    * Diferencia entre texto (`str`) y `bytes`. `bytearray`.
    * `struct`: Empaquetado y desempaquetado de datos binarios (C-structs). Reemplaza al obsoleto `array`.
