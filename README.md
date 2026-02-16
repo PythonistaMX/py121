@@ -1,86 +1,112 @@
-# py121: La Biblioteca Estándar de Python a Fondo
+# Biblioteca Estándar de Python (Py121)
+
+[Python](https://www.python.org/) [Codespaces](https://github.com/features/codespaces) [License](LICENSE)
+
+> Estado: ✅ Curso Activo | Nivel: Intermedio
+
+Este repositorio contiene el material oficial del curso Py121, enfocado en dominar la **Biblioteca Estándar de Python** para construir aplicaciones robustas, eficientes y escalables. Es la continuación de [Py111](https://github.com/PythonistaMX/py111) y el paso previo a estructuras de datos complejas.
 
 > **⚠️ Nota Importante:** Este repositorio ha sido actualizado en 2026 con contenido moderno (Python 3.12+). Si buscas el material original, puedes encontrarlo en la rama [legacy](../../tree/legacy).
 
-Este curso está diseñado como un puente hacia la ingeniería de datos, CI/CD y desarrollo backend de alto rendimiento, explorando a fondo la biblioteca estándar de Python.
+## 🗺️ Ruta de Aprendizaje
 
-## Temario
+Este curso forma parte de la serie **Fundamentos de Python (py1xx)**:
 
-### Módulo 1: Datos y Algoritmos (La base eficiente)
-*Manipulación de datos en memoria y flujos de información.*
-* Colecciones avanzadas
-* Iteradores y generadores
-* Itertools y flujos
-* Bytes y struct
-* Expresiones Regulares
-* Formatos de Intercambio (CSV y JSON)
+| Curso | Título | Estado |
+| :---: | :--- | :--- |
+| **py101** | Introducción a Python 3 | Prerrequisito |
+| **py111** | POO con Python 3 | Prerrequisito |
+| **py121** | Biblioteca estándar de Python | ✅ **Este curso** |
+| **py131** | Estructuras de Datos y Algoritmia | Siguiente paso |
+| **py141** | Automatización y Extracción de Datos | Aplicación práctica |
 
-### Módulo 2: Interacción con el Sistema
-*Controlando el entorno donde corre el código.*
-* Sistema y argumentos
-* Variables de entorno
-* Subprocesos y orquestación
-* Pathlib y sistema de archivos
+## 🚀 Acerca del Curso
 
-### Módulo 3: Robustez y Calidad
-*Escribiendo código profesional.*
-* Recursos y contextlib
-* Logging avanzado
+Un programa diseñado para servir como puente hacia la ingeniería de datos, desarrollo backend de alto rendimiento y orquestación de sistemas. Al completarlo serás capaz de:
 
-### Módulo 4: Tiempo y Ejecución
-*Hacia la asincronía.*
-* Datetime moderno
-* Hilos y procesos
-* Futuros y ejecutores
+*   **Manipular datos eficientemente** utilizando colecciones avanzadas, iteradores y formatos binarios.
+*   **Interactuar con el sistema operativo**, gestionando archivos, procesos y variables de entorno.
+*   **Escribir código robusto** mediante logging avanzado y gestión segura de recursos.
+*   **Dominar la concurrencia y el paralelismo** con hilos, procesos y futuros.
+*   **Implementar programación asíncrona** moderna utilizando `asyncio`.
 
-### Módulo 5: AsyncIO
-*La joya de la corona.*
-* Fundamentos de AsyncIO
-* Gestión de tareas Async
-* Sincronización asíncrona
-* Contextvars y conclusiones
+## 📅 Temario y Estructura
 
-## Configuración del Entorno de Desarrollo
+El contenido está dividido en cuadernos (notebooks) progresivos:
 
-Puedes seguir este curso utilizando Docker, GitHub Codespaces o Visual Studio Code con Dev Containers.
+### 📚 Contenidos
 
-### Opción A: GitHub Codespaces (Recomendado en la nube)
-1. Haz clic en el botón de **Code** en el repositorio de GitHub.
-2. Selecciona la pestaña **Codespaces**.
-3. Haz clic en **Create codespace on master**.
-4. El entorno se configurará automáticamente con todas las dependencias necesarias.
+*   `01` - [Colecciones Avanzadas](01_colecciones_avanzadas.ipynb)
+*   `02` - [Iteradores y Generadores](02_iteradores_y_generadores.ipynb)
+*   `03` - [Itertools y Functools](03_itertools_y_functools.ipynb)
+*   `04` - [Bytes y Struct](04_bytes_y_struct.ipynb)
+*   `05` - [Expresiones Regulares](05_expresiones_regulares.ipynb)
+*   `06` - [Datos CSV y JSON](06_datos_csv_json.ipynb)
+*   `07` - [Sistema y Argumentos](07_sistema_y_argumentos.ipynb)
+*   `08` - [Variables de Entorno](08_variables_de_entorno.ipynb)
+*   `09` - [Subprocesos y Orquestación](09_subprocesos_orquestacion.ipynb)
+*   `10` - [Pathlib y Sistema de Archivos](10_pathlib_sistema_archivos.ipynb)
+*   `11` - [Recursos y Contextlib](11_recursos_y_contextlib.ipynb)
+*   `12` - [Logging Avanzado](12_logging_avanzado.ipynb)
+*   `13` - [Datetime Moderno](13_datetime_moderno.ipynb)
+*   `14` - [Hilos y Procesos](14_hilos_y_procesos.ipynb)
+*   `15` - [Futuros y Ejecutores](15_futuros_y_ejecutores.ipynb)
+*   `16` - [Fundamentos de AsyncIO](16_fundamentos_asyncio.ipynb)
+*   `17` - [Gestión de Tareas Async](17_gestion_tareas_async.ipynb)
+*   `18` - [Sincronización Asíncrona](18_sincronizacion_asincrona.ipynb)
+*   `19` - [Contextvars y Conclusiones](19_contextvars_y_conclusiones.ipynb)
 
-### Opción B: VS Code con Dev Containers (Local)
-Requisitos: Docker Desktop y VS Code con la extensión "Dev Containers" instalada.
+## 🛠️ Instalación y Uso
 
-1. Clona este repositorio.
-2. Abre la carpeta en VS Code.
-3. Cuando aparezca la notificación "Reopen in Container", haz clic en ella. O abre la paleta de comandos (F1) y selecciona **Dev Containers: Reopen in Container**.
-4. VS Code construirá la imagen de Docker y configurará el entorno.
+¡Olvídate de configurar entornos locales complejos! Este repositorio está configurado para **GitHub Codespaces**.
 
-### Opción C: Ejecución Local
-Requisitos: Python 3.10 o superior.
+1.  Haz clic en el botón **"Code"** (verde) arriba a la derecha.
+2.  Ve a la pestaña **"Codespaces"**.
+3.  Haz clic en **"Create codespace on main"**.
 
-1. Clona el repositorio.
-2. Crea un entorno virtual:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # En Windows: venv\Scripts\activate
-   ```
-3. Instala las dependencias (si las hubiera):
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Ejecuta Jupyter Lab o abre los notebooks en VS Code.
+El entorno se iniciará automáticamente con Python 3 y todas las extensiones necesarias listas para usar.
 
-## Nota sobre Versiones Anteriores (Legacy)
+### Ejecución Local (Opcional)
 
-El material original de este curso (versión introductoria a minería de datos y data wrangling) ha sido movido a una rama dedicada para preservación histórica.
+Si prefieres trabajar en tu máquina:
 
-Si buscas el material antiguo, puedes acceder a él cambiando a la rama `legacy`:
+1.  **Clonar el repositorio**
+    ```bash
+    git clone https://github.com/PythonistaMX/py121.git
+    cd py121
+    ```
 
-```bash
-git checkout legacy
-```
+2.  **Crear entorno virtual (Recomendado)**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # En Windows: venv\Scripts\activate
+    ```
 
-O seleccionando la rama "legacy" en el selector de ramas de GitHub.
+3.  **Instalar dependencias**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Iniciar Jupyter**
+    ```bash
+    # (Asegúrate de tener jupyter instalado o instálalo con pip install jupyterlab)
+    jupyter lab
+    ```
+
+## 📝 Licencia
+
+Este material es desarrollado y mantenido por **José Luis Chiquete Valdivieso**.
+
+Este proyecto está bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC-BY 4.0)**.
+
+Eres libre de:
+
+*   ✅ **Compartir** el material en cualquier medio o formato
+*   ✅ **Adaptar**, remezclar y crear contenido derivado
+*   ✅ **Usar** con fines comerciales
+
+Con la condición de:
+
+*   📌 **Atribución**: Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se han realizado cambios.
+
+Véase el archivo [LICENSE](LICENSE) para los términos completos.
