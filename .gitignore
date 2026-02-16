@@ -115,3 +115,7 @@ Thumbs.db
 # Project specific
 credenciales.txt
 .vscode/
+
+# Archivos de planeacion
+PLAN_*.md
+plan_series.md
