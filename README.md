@@ -6,7 +6,7 @@
 
 Este repositorio contiene el material oficial del curso Py121, enfocado en dominar la **Biblioteca Estándar de Python** para construir aplicaciones robustas, eficientes y escalables. Es la continuación de [Py111](https://github.com/PythonistaMX/py111) y el paso previo a estructuras de datos complejas.
 
-> **⚠️ Nota Importante:** Este repositorio ha sido actualizado en 2026 con contenido moderno (Python 3.12+). Si buscas el material original, puedes encontrarlo en la rama [legacy](../../tree/legacy).
+> **⚠️ Nota Importante:** Este repositorio ha sido actualizado en 2026 con contenido moderno (Python 3.12+ y conceptos de 3.13). Si buscas el material original, puedes encontrarlo en la rama [legacy](../../tree/legacy).
 
 ## 🗺️ Ruta de Aprendizaje
 
@@ -26,8 +26,8 @@ Un programa diseñado para servir como puente hacia la ingeniería de datos, des
 
 *   **Manipular datos eficientemente** utilizando colecciones avanzadas, iteradores y formatos binarios.
 *   **Interactuar con el sistema operativo**, gestionando archivos, procesos y variables de entorno.
-*   **Escribir código robusto** mediante logging avanzado y gestión segura de recursos.
-*   **Dominar la concurrencia y el paralelismo** con hilos, procesos y futuros.
+*   **Escribir código robusto** mediante logging avanzado, pruebas unitarias y gestión segura de recursos.
+*   **Dominar la concurrencia y los nuevos runtimes** (GIL-free) con hilos, procesos y futuros.
 *   **Implementar programación asíncrona** moderna utilizando `asyncio`.
 
 ## 📅 Temario y Estructura
@@ -48,13 +48,15 @@ El contenido está dividido en cuadernos (notebooks) progresivos:
 *   `10` - [Pathlib y Sistema de Archivos](10_pathlib_sistema_archivos.ipynb)
 *   `11` - [Recursos y Contextlib](11_recursos_y_contextlib.ipynb)
 *   `12` - [Logging Avanzado](12_logging_avanzado.ipynb)
-*   `13` - [Datetime Moderno](13_datetime_moderno.ipynb)
-*   `14` - [Hilos y Procesos](14_hilos_y_procesos.ipynb)
-*   `15` - [Futuros y Ejecutores](15_futuros_y_ejecutores.ipynb)
-*   `16` - [Fundamentos de AsyncIO](16_fundamentos_asyncio.ipynb)
-*   `17` - [Gestión de Tareas Async](17_gestion_tareas_async.ipynb)
-*   `18` - [Sincronización Asíncrona](18_sincronizacion_asincrona.ipynb)
-*   `19` - [Contextvars y Conclusiones](19_contextvars_y_conclusiones.ipynb)
+*   `13` - [Pruebas Unitarias](13_pruebas_unitarias.ipynb)
+*   `14` - [Datetime Moderno](14_datetime_moderno.ipynb)
+*   `15` - [Teoría de Concurrencia y Runtime](15_teoria_concurrencia.ipynb)
+*   `16` - [Hilos y Procesos](16_hilos_y_procesos.ipynb)
+*   `17` - [Futuros y Ejecutores](17_futuros_y_ejecutores.ipynb)
+*   `18` - [Fundamentos de AsyncIO](18_fundamentos_asyncio.ipynb)
+*   `19` - [Gestión de Tareas Async](19_gestion_tareas_async.ipynb)
+*   `20` - [Sincronización Asíncrona](20_sincronizacion_asincrona.ipynb)
+*   `21` - [Contextvars y Conclusiones](21_contextvars_y_conclusiones.ipynb)
 
 ## 🛠️ Instalación y Uso
 
