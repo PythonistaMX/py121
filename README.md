@@ -36,27 +36,45 @@ El contenido está dividido en cuadernos (notebooks) progresivos:
 
 ### 📚 Contenidos
 
+### Módulo 1: Datos y Algoritmos
+
 *   `01` - [Colecciones Avanzadas](01_colecciones_avanzadas.ipynb)
 *   `02` - [Iteradores y Generadores](02_iteradores_y_generadores.ipynb)
 *   `03` - [Itertools y Functools](03_itertools_y_functools.ipynb)
 *   `04` - [Bytes y Struct](04_bytes_y_struct.ipynb)
 *   `05` - [Expresiones Regulares](05_expresiones_regulares.ipynb)
 *   `06` - [Datos CSV y JSON](06_datos_csv_json.ipynb)
+
+### Módulo 2: Interacción con el Sistema
+
 *   `07` - [Sistema y Argumentos](07_sistema_y_argumentos.ipynb)
 *   `08` - [Variables de Entorno](08_variables_de_entorno.ipynb)
 *   `09` - [Subprocesos y Orquestación](09_subprocesos_orquestacion.ipynb)
 *   `10` - [Pathlib y Sistema de Archivos](10_pathlib_sistema_archivos.ipynb)
-*   `11` - [Recursos y Contextlib](11_recursos_y_contextlib.ipynb)
-*   `12` - [Logging Avanzado](12_logging_avanzado.ipynb)
-*   `13` - [Pruebas Unitarias](13_pruebas_unitarias.ipynb)
-*   `14` - [Datetime Moderno](14_datetime_moderno.ipynb)
-*   `15` - [Teoría de Concurrencia y Runtime](15_teoria_concurrencia.ipynb)
-*   `16` - [Hilos y Procesos](16_hilos_y_procesos.ipynb)
-*   `17` - [Futuros y Ejecutores](17_futuros_y_ejecutores.ipynb)
-*   `18` - [Fundamentos de AsyncIO](18_fundamentos_asyncio.ipynb)
-*   `19` - [Gestión de Tareas Async](19_gestion_tareas_async.ipynb)
-*   `20` - [Sincronización Asíncrona](20_sincronizacion_asincrona.ipynb)
-*   `21` - [Contextvars y Conclusiones](21_contextvars_y_conclusiones.ipynb)
+### Módulo 3: Bases de Datos y Redes
+
+*   `11` - [Bases de Datos con SQLite](11_bases_datos_sqlite.ipynb)
+*   `12` - [Redes y HTTP](12_redes_y_http.ipynb)
+
+### Módulo 4: Robustez y Calidad
+
+*   `13` - [Recursos y Contextlib](13_recursos_y_contextlib.ipynb)
+*   `14` - [Logging Avanzado](14_logging_avanzado.ipynb)
+*   `15` - [Pruebas Unitarias](15_pruebas_unitarias.ipynb)
+
+### Módulo 5: Tiempo y Ejecución
+
+*   `16` - [Datetime Moderno](16_datetime_moderno.ipynb)
+*   `17` - [Teoría de Concurrencia y Runtime](17_teoria_concurrencia.ipynb)
+*   `18` - [Hilos y Procesos](18_hilos_y_procesos.ipynb)
+*   `19` - [Futuros y Ejecutores](19_futuros_y_ejecutores.ipynb)
+
+### Módulo 6: Fundamentos AsyncIO
+
+*   `20` - [Fundamentos de AsyncIO](20_fundamentos_asyncio.ipynb)
+*   `21` - [Gestión de Tareas Async](21_gestion_tareas_async.ipynb)
+*   `22` - [Sincronización Asíncrona](22_sincronizacion_asincrona.ipynb)
+*   `23` - [Contextvars y Conclusiones](23_contextvars_y_conclusiones.ipynb)
 
 ## 🛠️ Instalación y Uso
 
